@@ -1,0 +1,58 @@
+size=100
+
+time of copying A is 0.039200 [ms]
+time of copying B is 0.038144 [ms]
+time of calculation is 0.070080 [ms]
+time of copying C is 0.096352 [ms]
+time of overall execution is 0.243776 [ms]
+size=200
+
+time of copying A is 0.182496 [ms]
+time of copying B is 0.168480 [ms]
+time of calculation is 0.301024 [ms]
+time of copying C is 0.327136 [ms]
+time of overall execution is 0.979136 [ms]
+size=500
+
+time of copying A is 1.007392 [ms]
+time of copying B is 0.903904 [ms]
+time of calculation is 3.579136 [ms]
+time of copying C is 1.983552 [ms]
+time of overall execution is 7.473984 [ms]
+size=1000
+
+time of copying A is 3.481856 [ms]
+time of copying B is 3.392512 [ms]
+time of calculation is 28.449568 [ms]
+time of copying C is 6.823872 [ms]
+time of overall execution is 42.147808 [ms]
+size=2000
+
+time of copying A is 13.460896 [ms]
+time of copying B is 13.669728 [ms]
+time of calculation is 240.487396 [ms]
+time of copying C is 28.179327 [ms]
+time of overall execution is 295.797333 [ms]
+size=5000
+
+time of copying A is 77.069084 [ms]
+time of copying B is 77.434525 [ms]
+time of calculation is 3894.309570 [ms]
+time of copying C is 168.893021 [ms]
+time of overall execution is 4217.706055 [ms]
+size=7000
+
+time of copying A is 155.281921 [ms]
+time of copying B is 153.518234 [ms]
+time of calculation is 10978.225586 [ms]
+time of copying C is 343.190308 [ms]
+time of overall execution is 11630.215820 [ms]
+size=8000
+size=100
+
+time of copying A is 0.039232 [ms]
+time of copying B is 0.038144 [ms]
+time of calculation is 0.072160 [ms]
+time of copying C is 0.094368 [ms]
+time of overall execution is 0.243904 [ms]
+size=200

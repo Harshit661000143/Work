@@ -1,0 +1,7 @@
+#! /bin/bash
+gcc -c -I /usr/local/cuda3.2/cuda/include/ $1 -o main
+gcc -L /usr/local/cuda3.2/cuda/ -l OpenCL main -o host -lm
+
+
+./host $2 $3
+

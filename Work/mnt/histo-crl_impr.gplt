@@ -1,0 +1,35 @@
+set title "matrix multiplication"
+#set terminal png transparent 
+set term post eps color
+#nocrop enhanced font arial 8 size 420,320 
+set output 'testmatrices-time.eps'
+#set auto x
+set boxwidth 1.2 absolute
+set yrange [0:200]
+set ylabel "Time in Seconds"
+set xlabel "Matrix size (n)"
+set xrange [0:10]
+set style data histogram
+set style histogram cluster gap 2  title offset character 1,1,1
+set style fill solid border -1
+set boxwidth 1.0
+set xtics border in scale 1,0.5 rotate by 90 offset character 5,0,-5  
+set xtics   ("100" 0.0000,"500" 1.00,"1000" 2.000,"2000" 3.00,"5000" 4.000,"7000" 5.00,"8000" 6.00,"9000" 7.0,"10000" 8.0 )
+#set bmargin 10 
+#plot 'exportable_table.txt' using 3 ti col, ''u 5 ti col 
+#plot 'datamul' using 1 ti col, ''u 2 ti col
+plot 'datamul' using 2 ti col, 'dataopt' u 2 ti col,'datasha' u 2 ti col
+#'' u 12 ti col, '' u 13 ti col, '' u 14 ti col
+#set terminal png transparent nocrop enhanced font arial 8 size 420,320 
+#set output 'immigration_plot.png'
+#set boxwidth 0.9 absolute
+#set style fill   solid 1.00 border -1
+#set style histogram clustered gap 1 title  offset character 0, 0, 0
+#set datafile missing '-'
+#set style data histograms
+#set xtics border in scale 1,0.5 nomirror rotate by -45  offset character 0, 0, 0 
+#set xtics   ("1891-1900" 0.00000, "1901-1910" 1.00000, "1911-1920" 2.00000, "1921-1930" 3.00000, "1931-1940" 4.00000, "1941-1950" 5.00000, "1951-1960" 6.00000, "1961-1970" 7.00000)
+#set title "US immigration from Northern Europe\nPlot selected data columns as histogram of clustered boxes" 
+#set yrange [ 0.00000 : 300000. ] noreverse nowriteback
+#plot 'immigration.dat' using 1:xtic(1) ti col 
+#ti col, '' u 12 ti col, '' u 13 ti col, '' u 14 ti col

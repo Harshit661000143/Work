@@ -1,0 +1,11 @@
+source
+/home/apps/NVIDIA_GPU_Computing_SDK/OpenCL/src/oclBLAS
+
+binary
+
+/home/apps/NVIDIA_GPU_Computing_SDK/OpenCL/bin/linux/release/oclOpenCLBLAS
+
+How to compile:
+
+goto source folder:
+make
