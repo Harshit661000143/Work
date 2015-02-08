@@ -43,13 +43,6 @@ void Heap:: decreaseKey(int key, int newVal)
     key=parent(key);
   }
 }
-  
-
-
-
-
- 
-
  void Heap:: insertKey(int val)
 {
   if(heapSize ==capacity)
