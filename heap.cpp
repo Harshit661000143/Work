@@ -104,7 +104,20 @@ if((r<heapSize)&&(elements[r]<elements[small]))
       minHeapify(small);
     }
 }
+ void Heap:: deletekey(int key)
+{
+elements[key]=-99;
+while(parent(key)<heapSize && parent(key)>=0)
 
+{
+minHeapify(parent(key));  
+
+key=parent(key);
+if(key==0)
+break;
+cout<<"key changed to  "<<key<<"\n";
+}
+}
 
  
 int main()
@@ -114,11 +127,18 @@ int main()
   h.insertKey(20);
   h.insertKey(15);
   h.insertKey(5);
+  h.insertKey(35);
+  h.insertKey(25);
+  h.insertKey(10);
+  h.insertKey(50);
+  h.printArray();
+  h.deletekey(5);
   h.printArray();
   h.extractMin();
-  h.extractMin();
-  h.extractMin();
   h.printArray();
+//  h.extractMin();
+//  h.extractMin();
+ // h.printArray();
 }
   
 

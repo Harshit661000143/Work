@@ -63,7 +63,24 @@ void merge(stack &s, stack &s2)
  {
    *s.last=*s2.head;
  }    
-   
+
+node* findMiddle(const stack& s)
+{
+  node* mynode=*s.mainNode;
+  node* fastnode=*s.mainNode;
+  while(fastnode!=NULL && fastnode->next!=NULL)
+  {
+    fastnode=fastnode->next->next;
+    mynode=mynode->next;
+  }
+  return mynode;
+}  
+    
+  
+
+
+ 
+  
 
 
 int main()
@@ -73,13 +90,15 @@ int main()
    s[x].mainNode=NULL;
  loop(x,5,1){
    push(s[0],x);
-   push(s[1],5-x);}
+   push(s[1],5+x);}
 // deleteRecur(&n,40);
  loop(x,2,1)
    printNode(s[x]);
  merge(s[0],s[1]);
+ node *mynode=findMiddle(s[0]);
  loop(x,2,1)
    printNode(s[x]);
+  cout<<"mynode->data:= "<<mynode->data<<"\n" ;
 }
  
 

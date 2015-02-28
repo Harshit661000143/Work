@@ -19,7 +19,7 @@ string Prepare:: getString()
 bool Prepare:: isUnique()
 {
    map<char,int> history;
-   loop(x,stringA.size())
+   loop(x,stringA.size(),1)
     {
       if(history[stringA[x]])
          return false;
@@ -49,7 +49,7 @@ int main()
  cout<<prep.stringA; 
  cout<<prep2.stringA; 
  cout<<"TRUTH"<<prep.stringA.compare(prep2.stringA)<<"\n";
- 
+ string *stringnew= new string; 
 
 }
 

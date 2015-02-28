@@ -39,13 +39,19 @@ public:
 };
 
 int main() {
-    Base* bBase = new Derived();
+#if 1
+    Base* bBase = new Base();
     Base* bDerived = new Derived();
-    bDerived= bBase;
+   // bDerived= bBase;
     bBase->NonVirtual();
     bBase->Virtual();
     bDerived->NonVirtual();
     bDerived->Virtual();
+#endif
+    Derived* derive= new Derived();
+    derive->NonVirtual();
+    derive->abstractMe(1);
+#if 0
     bDerived->abstractMe(1);
     int result = bDerived->func(1);
     cout <<"****Result =\t"<<result<<"\n";
@@ -55,6 +61,6 @@ int main() {
     derive->abstractMe(1);
 //    delete bBase;
  //   delete bDerived;
-
+#endif
 }
 

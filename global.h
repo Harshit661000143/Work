@@ -6,9 +6,10 @@
 #include<string.h>
 #include<vector>
 #include<list>
+#include <algorithm>
 using namespace std;
 #define loop(x,n,stride) for(int x = 0; x < n; x=x+stride)
-static const char alphanum[] ="abcdeabcde";
+static const char alphanum[] ="abcdefghijklmn";
 inline int min(int a,int b, int c)
 {
  int ret=a;

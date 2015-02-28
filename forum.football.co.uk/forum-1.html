@@ -1,0 +1,996 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<title>Football Forum &bull; View forum - Support &amp; Improvements</title>
+
+<link rel="alternate" type="application/atom+xml" title="Feed - Football Forum" href="http://forum.football.co.uk/feed.php" /><link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="http://forum.football.co.uk/feed.php?mode=topics" /><link rel="alternate" type="application/atom+xml" title="Feed - Forum - Support &amp; Improvements" href="http://forum.football.co.uk/feed.php?f=1" />
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Enter the page number you wish to go to:';
+	var on_page = '1';
+	var per_page = '35';
+	var base_url = './viewforum.php?f=1';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=forum.football.co.uk';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="./styles/prosilver/template/styleswitcher.js"></script>
+<script type="text/javascript" src="./styles/prosilver/template/forum_fn.js"></script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<style type="text/css">
+.switch_placeholder {float:left;}
+</style>
+
+<link href="./styles/prosilver/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="./style.php?id=1&amp;lang=en" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<link href="./styles/prosilver/theme/normal.css" rel="stylesheet" type="text/css" title="A" />
+<link href="./styles/prosilver/theme/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
+<link href="./styles/prosilver/theme/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
+
+
+
+</head>
+
+<body id="phpbb" class="section-viewforum ltr">
+
+<div id="wrap">
+	<a id="top" name="top" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar">
+			<div class="inner">
+<div class="social-panel">
+                             <ul>
+                             <li class="twitter"><a href="https://www.twitter.com/footballuk" target="_blank">twitter</a></li>
+                             <li class="googleplus"><a href="https://plus.google.com/+footballcouknews/" target="_blank">googleplus</a></li>
+                             <li class="facebook"><a href="https://www.facebook.com/footballuk" target="_blank">facebook</a></li>
+                             </ul>
+                            </div>
+<span class="corners-top"><span></span></span>
+
+			<div id="site-description">
+				<a href="/" title="Board index" id="logo"><img src="./styles/prosilver/imageset/site_logo.gif" width="252" height="100" alt="" title="" /></a>
+				<h1>Football Forum</h1>
+				<p></p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			
+			
+			<!-- Ad Unit [5427] Football.co.uk - 728x90 - Forum - ATF -->
+<div id="switch_placeholder_8b49c4d0a37d2fe44db788370759eb82" class="switch_placeholder"></div>
+<script type="text/javascript" src="//delivery.b.switchadhub.com/adserver/sat.js"></script>
+<script type="text/javascript"> __switch_obj.addInstance({"z":5427,partner_id:"PARTNER_ID_HERE","targetId":"switch_placeholder_8b49c4d0a37d2fe44db788370759eb82","width":"728","height":"90"}); </script>
+
+</div>
+
+		
+			<div id="search-box">
+				<form action="./search.php" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="text" maxlength="128" title="Search for keywords" class="inputbox search" value="Search" onclick="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+					<input class="button2" value="Search" type="submit" /><br />
+					<a href="./search.php" title="View the advanced search options">Advanced search</a> 
+				</fieldset>
+				</form>
+			</div>
+		
+<div class="f-nav">
+<a href="http://www.football.co.uk/">Football News</a>
+<a href="http://www.football.co.uk/fixtures/index.shtml">Fixtures</a>
+<a href="http://www.football.co.uk/results/index.shtml">Results</a>
+<a href="http://www.football.co.uk/league_tables/index.shtml">Tables</a>
+<a href="http://www.football.co.uk/profiles/players/index.shtml">Players</a>
+<a href="http://stats.football.co.uk/">Stats</a>
+<a href="http://www.football.co.uk/world-cup/index.shtml">World Cup</a>
+<a href="http://www.football.co.uk/live_scores/index.shtml">Live Scores</a>
+<a href="http://www.football.co.uk/transfer_gossip/index.shtml">Transfers</a>
+</div>
+
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+
+		<div class="navbar">
+			<div class="inner"><span class="corners-top"><span></span></span>
+
+			<ul class="linklist navlinks">
+				<li class="icon-home"><a href="/" accesskey="h">Board index</a>  <strong>&#8249;</strong> <a href="./viewforum.php?f=3976">Welcome</a> <strong>&#8249;</strong> <a href="./viewforum.php?f=1">Support &amp; Improvements</a></li>
+
+				<li class="rightside"><a href="#" onclick="fontsizeup(); return false;" onkeypress="return fontsizeup(event);" class="fontsize" title="Change font size">Change font size</a></li>
+
+				
+			</ul>
+
+			
+
+			<ul class="linklist rightside">
+				<li class="icon-faq"><a href="./faq.php" title="Frequently Asked Questions">FAQ</a></li>
+				<li class="icon-register"><a href="./ucp.php?mode=register">Register</a></li>
+					<li class="icon-logout"><a href="./ucp.php?mode=login" title="Login" accesskey="x">Login</a></li>
+				
+			</ul>
+
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+
+	</div>
+
+	<a name="start_here"></a>
+	<div id="page-body">
+		
+<h2><a href="./viewforum.php?f=1">Support &amp; Improvements</a></h2>  
+
+
+<div>  
+	<!-- NOTE: remove the style="display: none" when you want to have the forum description on the forum body --><div style="display: none !important;">If you're having problems using the forum or would like to suggest improvements that could be made, please post them in here.<br /></div><p><strong>Moderators:</strong> <a href="./memberlist.php?mode=group&amp;g=3">Moderators</a>, <a href="./memberlist.php?mode=group&amp;g=820">Admin Team</a></p>
+</div>
+
+	<div class="topic-actions" >
+
+	
+		<div class="buttons">
+			<div class="post-icon" title="Post a new topic"><a href="./posting.php?mode=post&amp;f=1"><span></span>Post a new topic</a></div>
+		</div>
+	
+		<div class="search-box">
+			<form method="get" id="forum-search" action="./search.php">
+			<fieldset>
+				<input class="inputbox search tiny" type="text" name="keywords" id="search_keywords" size="20" value="Search this forum" onclick="if (this.value == 'Search this forum') this.value = '';" onblur="if (this.value == '') this.value = 'Search this forum';" />
+				<input class="button2" type="submit" value="Search" />
+				<input type="hidden" name="fid[0]" value="1" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+		<div class="pagination">
+			352 topics &bull; <a href="#" onclick="jumpto(); return false;" title="Click to jump to pageâ€¦">Page <strong>1</strong> of <strong>11</strong></a> &bull; <span><strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=35">2</a><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=70">3</a><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=105">4</a><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=140">5</a><span class="page-dots"> ... </span><a href="./viewforum.php?f=1&amp;start=350">11</a></span>
+		</div>
+	
+
+	</div>
+
+		<div class="forumbg">
+		<div class="inner"><span class="corners-top"><span></span></span>
+		<ul class="topiclist">
+			<li class="header">
+				<dl class="icon">
+					<dt>Topics</dt>
+					<dd class="posts">Replies</dd>
+					<dd class="views">Views</dd>
+					<dd class="lastpost"><span>Last post</span></dd>
+				</dl>
+			</li>
+		</ul>
+		<ul class="topiclist topics">
+	
+
+		<li class="row bg1 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about28396.html" class="topictitle">REPORT A TECHNICAL FAULT WITH THE FORUM</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=28396">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=1&amp;t=28396&amp;start=1840">93</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=28396&amp;start=1860">94</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=28396&amp;start=1880">95</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a> &raquo; Thu May 17, 2007 3:41 pm
+				</dt>
+				<dd class="posts">1893 <dfn>Replies</dfn></dd>
+				<dd class="views">162813 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=28396&amp;p=1345055#p1345055"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sat Aug 09, 2014 11:40 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about31593.html" class="topictitle">Avatars</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=31593">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=1&amp;t=31593&amp;start=280">15</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=31593&amp;start=300">16</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=31593&amp;start=320">17</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a> &raquo; Sun Aug 05, 2007 6:19 am
+				</dt>
+				<dd class="posts">332 <dfn>Replies</dfn></dd>
+				<dd class="views">67660 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=31593&amp;p=1332213#p1332213"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Wed Jan 01, 2014 1:35 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about4961.html" class="topictitle">Computers/Technology Assistance Thread.</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=4961">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=1&amp;t=4961&amp;start=2660">134</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=4961&amp;start=2680">135</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=4961&amp;start=2700">136</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a> &raquo; Tue Nov 29, 2005 6:41 pm
+				</dt>
+				<dd class="posts">2719 <dfn>Replies</dfn></dd>
+				<dd class="views">192578 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=48661">redpelt</a>
+					<a href="./viewtopic.php?f=1&amp;t=4961&amp;p=1329483#p1329483"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sat Nov 16, 2013 7:28 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about28398.html" class="topictitle">NEEP HELP OR ASSISTANCE USING THE FORUM? ASK HERE</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=28398">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=1&amp;t=28398&amp;start=160">9</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=28398&amp;start=180">10</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=28398&amp;start=200">11</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a> &raquo; Thu May 17, 2007 3:48 pm
+				</dt>
+				<dd class="posts">211 <dfn>Replies</dfn></dd>
+				<dd class="views">78596 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=40353" style="color: #AA0000;" class="username-coloured">Conner99</a>
+					<a href="./viewtopic.php?f=1&amp;t=28398&amp;p=1297592#p1297592"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Tue Jul 17, 2012 8:09 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about104806.html" class="topictitle">Football.co.uk Hotseat</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=104806">1</a><span class="page-dots"> ... </span><a href="./viewtopic.php?f=1&amp;t=104806&amp;start=640">33</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=104806&amp;start=660">34</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=104806&amp;start=680">35</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=448" style="color: #AA0000;" class="username-coloured">O Dogg</a> &raquo; Mon Dec 01, 2008 7:51 pm
+				</dt>
+				<dd class="posts">698 <dfn>Replies</dfn></dd>
+				<dd class="views">71570 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=8566">mrtz</a>
+					<a href="./viewtopic.php?f=1&amp;t=104806&amp;p=1068851#p1068851"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Thu Jul 22, 2010 11:34 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about154560.html" class="topictitle">Temporary fix for searching for threads</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=2303">yeek</a> &raquo; Fri Jul 03, 2009 1:07 pm
+				</dt>
+				<dd class="posts">14 <dfn>Replies</dfn></dd>
+				<dd class="views">5724 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by Guest
+					<a href="./viewtopic.php?f=1&amp;t=154560&amp;p=1012770#p1012770"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Mar 26, 2010 9:54 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1 sticky">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/sticky_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about28415.html" class="topictitle">How to Post Pictures on the Forum</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a> &raquo; Thu May 17, 2007 6:18 pm
+				</dt>
+				<dd class="posts">11 <dfn>Replies</dfn></dd>
+				<dd class="views">9758 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=36708">Chelsea_ForLife</a>
+					<a href="./viewtopic.php?f=1&amp;t=28415&amp;p=950718#p950718"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Mon Jan 04, 2010 2:50 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about447724.html" class="topictitle">No i don't have a message in my inbox!!</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=31948">Davey1</a> &raquo; Sat Jan 26, 2013 3:18 pm
+				</dt>
+				<dd class="posts">10 <dfn>Replies</dfn></dd>
+				<dd class="views">1450 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=33138">Learning</a>
+					<a href="./viewtopic.php?f=1&amp;t=447724&amp;p=1324008#p1324008"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Aug 02, 2013 12:00 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about448685.html" class="topictitle">Its no longer the N Power Championship</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=31830">knabby crackers</a> &raquo; Tue Jul 30, 2013 4:48 pm
+				</dt>
+				<dd class="posts">1 <dfn>Replies</dfn></dd>
+				<dd class="views">656 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=448685&amp;p=1323873#p1323873"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Tue Jul 30, 2013 5:10 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about448095.html" class="topictitle">Title.</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=49354">ProfessorDoxus</a> &raquo; Wed Apr 03, 2013 5:55 am
+				</dt>
+				<dd class="posts">1 <dfn>Replies</dfn></dd>
+				<dd class="views">767 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=448095&amp;p=1317773#p1317773"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Thu Apr 04, 2013 2:08 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about446731.html" class="topictitle">Planned Forum Migration</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=446731">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=446731&amp;start=20">2</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=448" style="color: #AA0000;" class="username-coloured">O Dogg</a> &raquo; Mon Aug 20, 2012 8:37 pm
+				</dt>
+				<dd class="posts">27 <dfn>Replies</dfn></dd>
+				<dd class="views">7066 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=446731&amp;p=1300295#p1300295"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Aug 24, 2012 1:24 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about446552.html" class="topictitle">Private Message</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=44385">ToffeeBlue</a> &raquo; Sat Jul 07, 2012 7:58 am
+				</dt>
+				<dd class="posts">2 <dfn>Replies</dfn></dd>
+				<dd class="views">1189 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=44385">ToffeeBlue</a>
+					<a href="./viewtopic.php?f=1&amp;t=446552&amp;p=1296678#p1296678"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sat Jul 07, 2012 3:44 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about444689.html" class="topictitle">Invite your friends for a chance to win a free prize!</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=448" style="color: #AA0000;" class="username-coloured">O Dogg</a> &raquo; Fri Oct 28, 2011 8:44 am
+				</dt>
+				<dd class="posts">7 <dfn>Replies</dfn></dd>
+				<dd class="views">2065 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=3775">Boris</a>
+					<a href="./viewtopic.php?f=1&amp;t=444689&amp;p=1292934#p1292934"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Wed Jun 13, 2012 2:05 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about445943.html" class="topictitle">Facebook post</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=39497">Tipster</a> &raquo; Wed Apr 18, 2012 1:58 pm
+				</dt>
+				<dd class="posts">11 <dfn>Replies</dfn></dd>
+				<dd class="views">2152 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=39497">Tipster</a>
+					<a href="./viewtopic.php?f=1&amp;t=445943&amp;p=1286641#p1286641"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sun May 13, 2012 2:47 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about446056.html" class="topictitle">Threads dedicated to EURO 2012 and Brazil 2014</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=45793">Terry Gyimah</a> &raquo; Mon Apr 30, 2012 1:07 pm
+				</dt>
+				<dd class="posts">1 <dfn>Replies</dfn></dd>
+				<dd class="views">1267 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=446056&amp;p=1283514#p1283514"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Mon Apr 30, 2012 3:16 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about445967.html" class="topictitle">General enquiry</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=45681">doug2911</a> &raquo; Sun Apr 22, 2012 10:26 am
+				</dt>
+				<dd class="posts">1 <dfn>Replies</dfn></dd>
+				<dd class="views">1249 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a>
+					<a href="./viewtopic.php?f=1&amp;t=445967&amp;p=1281540#p1281540"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sun Apr 22, 2012 10:34 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about445662.html" class="topictitle">Interesting pvt</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=44385">ToffeeBlue</a> &raquo; Fri Mar 16, 2012 4:56 pm
+				</dt>
+				<dd class="posts">6 <dfn>Replies</dfn></dd>
+				<dd class="views">1921 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=40353" style="color: #AA0000;" class="username-coloured">Conner99</a>
+					<a href="./viewtopic.php?f=1&amp;t=445662&amp;p=1274666#p1274666"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Mar 16, 2012 8:58 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about445342.html" class="topictitle">Premier League Match Section?</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=44385">ToffeeBlue</a> &raquo; Fri Feb 03, 2012 4:49 pm
+				</dt>
+				<dd class="posts">1 <dfn>Replies</dfn></dd>
+				<dd class="views">1391 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=35166">deeman</a>
+					<a href="./viewtopic.php?f=1&amp;t=445342&amp;p=1269942#p1269942"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Feb 24, 2012 5:09 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about445281.html" class="topictitle">Emails, emails....emails.</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=44611">Zinc</a> &raquo; Thu Jan 26, 2012 7:54 pm
+				</dt>
+				<dd class="posts">4 <dfn>Replies</dfn></dd>
+				<dd class="views">1651 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=44611">Zinc</a>
+					<a href="./viewtopic.php?f=1&amp;t=445281&amp;p=1264851#p1264851"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Jan 27, 2012 9:14 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about444816.html" class="topictitle">Advice on getting bigger writing, thanks [b]Boris[/b]</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=42581">NickKIELCEPoland</a> &raquo; Tue Nov 15, 2011 10:06 am
+				</dt>
+				<dd class="posts">0 <dfn>Replies</dfn></dd>
+				<dd class="views">1309 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=42581">NickKIELCEPoland</a>
+					<a href="./viewtopic.php?f=1&amp;t=444816&amp;p=1252991#p1252991"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Tue Nov 15, 2011 10:06 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read_locked.gif); background-repeat: no-repeat;">
+				<dt title="This topic is locked, you cannot edit posts or make further replies.">
+					<a href="/about444292.html" class="topictitle">Forum Crash - 8th September</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a> &raquo; Sat Sep 10, 2011 5:45 pm
+				</dt>
+				<dd class="posts">4 <dfn>Replies</dfn></dd>
+				<dd class="views">2058 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27140" style="color: #AA0000;" class="username-coloured">Hams</a>
+					<a href="./viewtopic.php?f=1&amp;t=444292&amp;p=1245892#p1245892"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sat Sep 24, 2011 1:33 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about444290.html" class="topictitle">Invest in vBulletin</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=32115">Stan Kroenke's moustache</a> &raquo; Fri Sep 09, 2011 5:32 pm
+				</dt>
+				<dd class="posts">0 <dfn>Replies</dfn></dd>
+				<dd class="views">1458 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=32115">Stan Kroenke's moustache</a>
+					<a href="./viewtopic.php?f=1&amp;t=444290&amp;p=1245576#p1245576"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Sep 09, 2011 5:32 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about428003.html" class="topictitle">Did UFO take our two members?</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=40196">Hektorek</a> &raquo; Tue Apr 26, 2011 6:39 pm
+				</dt>
+				<dd class="posts">10 <dfn>Replies</dfn></dd>
+				<dd class="views">2783 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=40196">Hektorek</a>
+					<a href="./viewtopic.php?f=1&amp;t=428003&amp;p=1222092#p1222092"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sat Apr 30, 2011 8:50 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about388986.html" class="topictitle">The reason I don't post much</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=41126">DAY DOO DOH DONT DAY</a> &raquo; Sat Jan 08, 2011 6:58 pm
+				</dt>
+				<dd class="posts">9 <dfn>Replies</dfn></dd>
+				<dd class="views">3115 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=33138">Learning</a>
+					<a href="./viewtopic.php?f=1&amp;t=388986&amp;p=1221255#p1221255"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Thu Apr 28, 2011 6:28 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about412602.html" class="topictitle">iPhone app - idea?</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=41944">ronaldo4444</a> &raquo; Fri Mar 11, 2011 12:32 pm
+				</dt>
+				<dd class="posts">3 <dfn>Replies</dfn></dd>
+				<dd class="views">1973 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=41944">ronaldo4444</a>
+					<a href="./viewtopic.php?f=1&amp;t=412602&amp;p=1203378#p1203378"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Mar 18, 2011 2:16 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read_locked.gif); background-repeat: no-repeat;">
+				<dt title="This topic is locked, you cannot edit posts or make further replies.">
+					<a href="/about408971.html" class="topictitle">Here's a thought</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=24399">Ben91</a> &raquo; Wed Mar 02, 2011 1:27 am
+				</dt>
+				<dd class="posts">1 <dfn>Replies</dfn></dd>
+				<dd class="views">1629 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a>
+					<a href="./viewtopic.php?f=1&amp;t=408971&amp;p=1194672#p1194672"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Wed Mar 02, 2011 2:03 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about404583.html" class="topictitle">League 1 and 2</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=41729">JannerArgyle</a> &raquo; Wed Feb 16, 2011 7:46 pm
+				</dt>
+				<dd class="posts">3 <dfn>Replies</dfn></dd>
+				<dd class="views">1948 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=41729">JannerArgyle</a>
+					<a href="./viewtopic.php?f=1&amp;t=404583&amp;p=1187977#p1187977"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Thu Feb 17, 2011 11:07 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about149000.html" class="topictitle">Club Forums</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=149000">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=149000&amp;start=20">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=149000&amp;start=40">3</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=448" style="color: #AA0000;" class="username-coloured">O Dogg</a> &raquo; Sun Jun 14, 2009 4:20 pm
+				</dt>
+				<dd class="posts">41 <dfn>Replies</dfn></dd>
+				<dd class="views">22481 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a>
+					<a href="./viewtopic.php?f=1&amp;t=149000&amp;p=1185343#p1185343"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sun Feb 13, 2011 1:23 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read_locked.gif); background-repeat: no-repeat;">
+				<dt title="This topic is locked, you cannot edit posts or make further replies.">
+					<a href="/about389267.html" class="topictitle">my subject locked?</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=41254">ronaldo67</a> &raquo; Sun Jan 09, 2011 5:04 pm
+				</dt>
+				<dd class="posts">7 <dfn>Replies</dfn></dd>
+				<dd class="views">2720 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=825" style="color: #AA0000;" class="username-coloured">Big Jono</a>
+					<a href="./viewtopic.php?f=1&amp;t=389267&amp;p=1165583#p1165583"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Mon Jan 10, 2011 10:21 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read_locked.gif); background-repeat: no-repeat;">
+				<dt title="This topic is locked, you cannot edit posts or make further replies.">
+					<a href="/about389268.html" class="topictitle">my subject was blocked?</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=41254">ronaldo67</a> &raquo; Sun Jan 09, 2011 5:18 pm
+				</dt>
+				<dd class="posts">2 <dfn>Replies</dfn></dd>
+				<dd class="views">1919 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=32115">Stan Kroenke's moustache</a>
+					<a href="./viewtopic.php?f=1&amp;t=389268&amp;p=1164902#p1164902"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sun Jan 09, 2011 5:27 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read_locked.gif); background-repeat: no-repeat;">
+				<dt title="This topic is locked, you cannot edit posts or make further replies.">
+					<a href="/about384406.html" class="topictitle">Deleting of post without notifying author.</a>
+					<br />
+					by Guest &raquo; Wed Dec 29, 2010 10:32 am
+				</dt>
+				<dd class="posts">14 <dfn>Replies</dfn></dd>
+				<dd class="views">3939 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by Guest
+					<a href="./viewtopic.php?f=1&amp;t=384406&amp;p=1159829#p1159829"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Sat Jan 01, 2011 5:15 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about149389.html" class="topictitle">Girls of Football ad</a>
+					<br />
+					<strong class="pagination"><span><a href="./viewtopic.php?f=1&amp;t=149389">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=149389&amp;start=20">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=149389&amp;start=40">3</a><span class="page-sep">, </span><a href="./viewtopic.php?f=1&amp;t=149389&amp;start=60">4</a></span></strong>by <a href="./memberlist.php?mode=viewprofile&amp;u=9184" style="color: #AA0000;" class="username-coloured">Steely Hill</a> &raquo; Tue Jun 16, 2009 4:02 pm
+				</dt>
+				<dd class="posts">78 <dfn>Replies</dfn></dd>
+				<dd class="views">33748 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=41126">DAY DOO DOH DONT DAY</a>
+					<a href="./viewtopic.php?f=1&amp;t=149389&amp;p=1159151#p1159151"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Thu Dec 30, 2010 6:49 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about379811.html" class="topictitle">Newcastle</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=41109">pollypeterborough</a> &raquo; Sun Dec 12, 2010 4:35 pm
+				</dt>
+				<dd class="posts">10 <dfn>Replies</dfn></dd>
+				<dd class="views">3394 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=41108">ClearWhiteLight</a>
+					<a href="./viewtopic.php?f=1&amp;t=379811&amp;p=1155079#p1155079"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Tue Dec 21, 2010 11:09 am</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg2">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about380352.html" class="topictitle">Quick question</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=27246">paddypoohead</a> &raquo; Tue Dec 14, 2010 5:10 pm
+				</dt>
+				<dd class="posts">2 <dfn>Replies</dfn></dd>
+				<dd class="views">1981 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=27246">paddypoohead</a>
+					<a href="./viewtopic.php?f=1&amp;t=380352&amp;p=1152321#p1152321"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Tue Dec 14, 2010 5:57 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+
+		<li class="row bg1">
+			<dl class="icon" style="background-image: url(./styles/prosilver/imageset/topic_read.gif); background-repeat: no-repeat;">
+				<dt title="No unread posts">
+					<a href="/about365865.html" class="topictitle">Guest shouldn`t have an option of writing</a>
+					<br />
+					by <a href="./memberlist.php?mode=viewprofile&amp;u=40196">Hektorek</a> &raquo; Thu Oct 21, 2010 4:30 pm
+				</dt>
+				<dd class="posts">9 <dfn>Replies</dfn></dd>
+				<dd class="views">3134 <dfn>Views</dfn></dd>
+				<dd class="lastpost"><span><dfn>Last post </dfn>by <a href="./memberlist.php?mode=viewprofile&amp;u=40196">Hektorek</a>
+					<a href="./viewtopic.php?f=1&amp;t=365865&amp;p=1130053#p1130053"><img src="./styles/prosilver/imageset/icon_topic_latest.gif" width="11" height="9" alt="View the latest post" title="View the latest post" /></a> <br />Fri Oct 22, 2010 7:02 pm</span>
+				</dd>
+			</dl>
+		</li>
+
+	
+			</ul>
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+	
+	<form method="post" action="./viewforum.php?f=1">
+		<fieldset class="display-options">
+			<a href="./viewforum.php?f=1&amp;start=35" class="right-box right">Next</a>
+			<label>Display topics from previous: <select name="st" id="st"><option value="0" selected="selected">All Topics</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+			<label>Sort by <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="r">Replies</option><option value="s">Subject</option><option value="v">Views</option></select></label>
+			<label><select name="sd" id="sd"><option value="a">Ascending</option><option value="d" selected="selected">Descending</option></select> <input type="submit" name="sort" value="Go" class="button2" /></label>
+	
+		</fieldset>
+	</form>
+	<hr />
+
+	<div class="topic-actions">
+		
+		<div class="buttons">
+			<div class="post-icon" title="Post a new topic"><a href="./posting.php?mode=post&amp;f=1"><span></span>Post a new topic</a></div>
+		</div>
+		
+		<div class="pagination">
+			 352 topics &bull;  <a href="#" onclick="jumpto(); return false;" title="Click to jump to pageâ€¦">Page <strong>1</strong> of <strong>11</strong></a>
+			 &bull;  <span><strong>1</strong><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=35">2</a><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=70">3</a><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=105">4</a><span class="page-sep">, </span><a href="./viewforum.php?f=1&amp;start=140">5</a><span class="page-dots"> ... </span><a href="./viewforum.php?f=1&amp;start=350">11</a></span>
+		</div>
+		
+	</div>
+
+	<p></p><p><a href="./index.php" class="left-box left" accesskey="r">Return to Board index</a></p>
+
+	<form method="post" id="jumpbox" action="./viewforum.php" onsubmit="if(this.f.value == -1){return false;}">
+
+	
+		<fieldset class="jumpbox">
+	
+			<label for="f" accesskey="j">Jump to:</label>
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+			
+				<option value="-1">Select a forum</option>
+			<option value="-1">------------------</option>
+				<option value="3976">Welcome</option>
+			
+				<option value="28">&nbsp; &nbsp;Newcomers</option>
+			
+				<option value="2">&nbsp; &nbsp;Announcements</option>
+			
+				<option value="1" selected="selected">&nbsp; &nbsp;Support &amp; Improvements</option>
+			
+				<option value="3977">Main Forums</option>
+			
+				<option value="23">&nbsp; &nbsp;General Football</option>
+			
+				<option value="30">&nbsp; &nbsp;Transfers and Rumours</option>
+			
+				<option value="26">&nbsp; &nbsp;General Discussion</option>
+			
+				<option value="3978">English Leagues and Cup Competitions</option>
+			
+				<option value="3">&nbsp; &nbsp;Barclays Premier League</option>
+			
+				<option value="4">&nbsp; &nbsp;Sky Bet Championship</option>
+			
+				<option value="5">&nbsp; &nbsp;Sky Bet League One</option>
+			
+				<option value="6">&nbsp; &nbsp;Sky Bet League Two</option>
+			
+				<option value="7">&nbsp; &nbsp;Vanarama Conference &amp; All Non League</option>
+			
+				<option value="8">&nbsp; &nbsp;FA Cup</option>
+			
+				<option value="9">&nbsp; &nbsp;Capital One Cup</option>
+			
+				<option value="3974">&nbsp; &nbsp;Scottish/Irish/Welsh Football</option>
+			
+				<option value="3979">Women's Football</option>
+			
+				<option value="197">&nbsp; &nbsp;Women's football</option>
+			
+				<option value="3980">European Leagues </option>
+			
+				<option value="155">&nbsp; &nbsp;Spain - La Liga</option>
+			
+				<option value="151">&nbsp; &nbsp;Germany - Bundesliga</option>
+			
+				<option value="154">&nbsp; &nbsp;Italy - Serie A</option>
+			
+				<option value="13">&nbsp; &nbsp;The Other Leagues Section</option>
+			
+				<option value="3981">European Competitions and International football</option>
+			
+				<option value="3975">&nbsp; &nbsp;2014 FIFA World Cup Brazil</option>
+			
+				<option value="14">&nbsp; &nbsp;UEFA Champions League</option>
+			
+				<option value="15">&nbsp; &nbsp;UEFA Europa League</option>
+			
+				<option value="16">&nbsp; &nbsp;International football</option>
+			
+				<option value="3982">Other Forums</option>
+			
+				<option value="232">&nbsp; &nbsp;Other Sports Discussion</option>
+			
+				<option value="148">&nbsp; &nbsp;Football Coaching</option>
+			
+				<option value="192">&nbsp; &nbsp;Kits, Boots and Equipment</option>
+			
+				<option value="138">&nbsp; &nbsp;TV, Movies, Entertainment , Music &amp; Literature</option>
+			
+				<option value="3961">&nbsp; &nbsp;Gaming Section</option>
+			
+				<option value="235">&nbsp; &nbsp;Gamblers Anonymous</option>
+			
+				<option value="227">&nbsp; &nbsp;Forum Games </option>
+			
+			</select>
+			<input type="submit" value="Go" class="button2" />
+		</fieldset>
+	</form>
+
+
+	<h3>Who is online</h3>
+	<p>Users browsing this forum: No registered users and 1 guest</p>
+
+	<h3>Forum permissions</h3>
+	<p>You <strong>cannot</strong> post new topics in this forum<br />You <strong>cannot</strong> reply to topics in this forum<br />You <strong>cannot</strong> edit your posts in this forum<br />You <strong>cannot</strong> delete your posts in this forum<br />You <strong>cannot</strong> post attachments in this forum<br /></p>
+</div>
+
+<div id="page-footer">
+
+	<div class="navbar">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<ul class="linklist">
+			<li class="icon-home"><a href="/" accesskey="h">Board index</a></li>
+				
+			<li class="rightside"><a href="./memberlist.php?mode=leaders">The team</a> &bull; <a href="./ucp.php?mode=delete_cookies">Delete all board cookies</a> &bull; All times are UTC [ <abbr title="Daylight Saving Time">DST</abbr> ]</li>
+		</ul>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="copyright">Powered by <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Group
+		
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+	
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3574413-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
