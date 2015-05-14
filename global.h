@@ -7,6 +7,7 @@
 #include<vector>
 #include<list>
 #include <algorithm>
+#include<set>
 using namespace std;
 #define loop(x,n,stride) for(int x = 0; x < n; x=x+stride)
 static const char alphanum[] ="abcdefghijklmn";

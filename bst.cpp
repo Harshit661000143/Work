@@ -34,7 +34,7 @@ node* push(int data, node* root){
 void printTree(node *root){
   if(root==NULL)
     return;
-  cout<<root->data<<"====>"; 
+ cout<<root->data<<"====>"; 
   printTree(root->left);
   printTree(root->right);
 }

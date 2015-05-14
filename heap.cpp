@@ -3,6 +3,7 @@
 
 class Heap
 {
+ public:
  int heapSize;
  int capacity;
  int *elements;
@@ -139,6 +140,9 @@ int main()
 //  h.extractMin();
 //  h.extractMin();
  // h.printArray();
+  Heap *t=new Heap(10);
+  cout<<"Capacity "<<t->capacity<<"\n";
+  
 }
   
 
